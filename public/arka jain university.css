@@ -25,10 +25,14 @@ header {
 nav ul {
     display: flex;
     list-style: none;
+    
 }
 
 nav li {
     margin: 0 15px;
+    background-color: #097c61;
+    padding: 4px;
+    border-radius: 10px;
 }
 
 nav a {
@@ -48,11 +52,9 @@ main {
     text-align: center;
     padding: 100px 20px;
     color: #0c4e45;
+    line-height: 2rem;
 }
 
-h1 {
-    font-size: 48px;
-}
 
 p {
     font-size: 20px;
@@ -95,9 +97,6 @@ footer {
     position: absolute;
     top: 0;
     left: 0;
-}
-body {
-    margin: 0;
 }
 
 footer {
